@@ -6,6 +6,7 @@
   }
 
   .photo-card {
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -21,3 +22,63 @@
     flex-direction: column;
     align-items: center;
   }
+  .load-more {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    background: #6225E6;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+  }
+  .load-more:focus {
+    outline: none; 
+ }
+ 
+ .load-more:hover {
+     transition: 0.5s;
+     box-shadow: 10px 10px 0 #FBC638;
+ }
+
+ .search-form {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  position: relative;
+ }
+ .input {
+  border: none;
+  width: 100%;
+  padding: 10px 37px 10px 15px;
+	box-sizing: border-box;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+  border-radius: 20px;
+  background: #EEE;
+	font: 13px Tahoma, Arial, sans-serif;
+	color: #555;
+	outline: none;
+ }
+ .input:focus{
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+	background: #E8E8E8;
+	color: #333;
+ }
+ #searchButton{
+  border: none;
+  position: absolute;
+	top: 0;
+	right: 0;
+  width: 37px;
+  height: 100%;
+  opacity: 0.5;
+  background: url(https://dimox.name/wp-content/uploads/2023/10/go.png) 50% no-repeat;
+ }
+ #searchButton:hover {
+	opacity: 0.8;
+}
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: blue;
+}
