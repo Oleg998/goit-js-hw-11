@@ -26,23 +26,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .load-more {
-    text-decoration: none;
-    font-size: 10px;
-    color: white;
-    background: #6225E6;
-    transition: 1s;
-    box-shadow: 6px 6px 0 black;
-    transform: skewX(-15deg);
-  }
-  .load-more:focus {
-    outline: none; 
- }
- 
- .load-more:hover {
-     transition: 0.5s;
-     box-shadow: 10px 10px 0 #FBC638;
- }
+  
 
  .search-form {
 
