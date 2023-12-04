@@ -59,7 +59,7 @@
   width: 37px;
   height: 100%;
   opacity: 0.5;
-  background: url(https://dimox.name/wp-content/uploads/2023/10/go.png) 50% no-repeat;
+  background: url(/src/img/go.svg) 50% no-repeat;
  }
  #searchButton:hover {
 	opacity: 0.8;
